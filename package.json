@@ -1,0 +1,31 @@
+{
+  "name": "foodbite",
+  "version": "1.0.0",
+  "description": "\"Food Application\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilank/Foodbite.git"
+  },
+  "author": "\"Nilank Sharma\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilank/Foodbite/issues"
+  },
+  "homepage": "https://github.com/Nilank/Foodbite#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}
